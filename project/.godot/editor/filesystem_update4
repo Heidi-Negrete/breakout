@@ -1,0 +1,5 @@
+res://scenes/main.tscn
+res://scenes/paddle.tscn
+res://scenes/level.tscn
+res://scenes/paddle.gd
+res://scenes/ball.tscn

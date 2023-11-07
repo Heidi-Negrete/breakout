@@ -1,0 +1,8 @@
+AnimatedSprite2D
+Sprite2D
+CollisionShape2D
+RigidBody2D
+ColorRect
+TileMap
+Node
+CharacterBody2D

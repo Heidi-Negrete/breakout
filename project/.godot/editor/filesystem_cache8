@@ -1,0 +1,15 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1699314624
+icon.svg::CompressedTexture2D::8942148539579338809::1699311587::1699311590::1::::<><>::
+::res://assets/::1699317269
+ballBlue.png::CompressedTexture2D::5623239277072095032::1699317262::1699317263::1::::<><>::
+ballGrey.png::CompressedTexture2D::3070441323603968187::1699317269::1699317269::1::::<><>::
+boundarywall.png::CompressedTexture2D::5728458827395928684::1699313006::1699313044::1::::<><>::
+paddleBlu.png::CompressedTexture2D::7571866333397352168::1699312772::1699313023::1::::<><>::
+tile_grey.png::CompressedTexture2D::8043909415558917961::1699313656::1699313656::1::::<><>::
+::res://scenes/::1699317188
+level.tscn::PackedScene::7124519146750595883::1699317067::0::1::::<><>::uid://dmusao33n6wqj::::res://assets/tile_grey.png<>uid://cnu546hrnpvk3::::res://assets/boundarywall.png
+main.tscn::PackedScene::9210620115623814469::1699317067::0::1::::<><>::uid://c8rf13uhmy0v4::::res://scenes/level.tscn<>uid://1naykx1gab3w::::res://scenes/paddle.tscn
+paddle.tscn::PackedScene::1851790266398680754::1699317084::0::1::::<><>::res://scenes/paddle.gd<>uid://df44sdjpstnr1::::res://assets/paddleBlu.png
+paddle.gd::GDScript::-1::1699317066::0::1::::<>CharacterBody2D<>::
+ball.tscn::PackedScene::2927325633321266277::1699317188::0::1::::<><>::

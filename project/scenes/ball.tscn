@@ -1,0 +1,31 @@
+[gd_scene load_steps=5 format=3 uid="uid://bhyavjcnbs6x2"]
+
+[ext_resource type="Texture2D" uid="uid://cmd66ukkikyce" path="res://assets/ballBlue.png" id="1_vch4i"]
+[ext_resource type="Texture2D" uid="uid://bj0lyqk8qnvr4" path="res://assets/ballGrey.png" id="2_jo8nt"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_kdwhh"]
+radius = 30.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_85irw"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_vch4i")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_jo8nt")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="Ball" type="RigidBody2D"]
+gravity_scale = 2.66454e-15
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CircleShape2D_kdwhh")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(2.5, 2.5)
+sprite_frames = SubResource("SpriteFrames_85irw")
